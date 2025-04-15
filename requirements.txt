@@ -1,0 +1,16 @@
+Flask
+langchain
+langchain-google-genai
+requests
+pytest
+gunicorn
+python-dotenv
+pydantic
+psycopg[binary]
+psycopg[pool]
+langgraph
+langgraph-checkpoint-postgres
+langchain-community
+pypdf
+chromadb
+psycopg2-binary
