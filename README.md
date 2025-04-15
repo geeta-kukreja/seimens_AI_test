@@ -22,31 +22,7 @@ The system uses LangChain, LangGraph, and Google Gemini for conversational intel
 | **Google Gemini**      | Large Language Model used for response generation                                        |
 | **PostgreSQL**         | Stores the chat history(langgraph implementation), user credentials and session metadata |
 ### System Flow
-```
-                            +------------------+
-                            |  User Interface  |
-                            +------------------+
-                                    |
-                                    v
-                            +------------------+
-                            | Authentication   |
-                            +------------------+
-                                    |
-                                    v
-                            +------------------+
-                            |   User Prompt    |
-                            +------------------+
-                                    |
-                                    v
-                          +----------------------+
-                          |    LLM / Gemini      |
-                          +----------------------+
-                                    |
-                                    v
-                            +------------------+
-                            |     Output       |
-                            +------------------+
-```
+![flow_diagram.png](flow_diagram.png)
 ---
 ## Setup & Installation
 ### Prerequisites
